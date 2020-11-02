@@ -1,0 +1,54 @@
+
+<style>
+  .initial {
+    position:relative;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    background-color: #4F77FF;
+    
+  }
+  
+  .container {
+    position:relative;
+    width:150px;
+    height:200px;  
+    
+  }
+  
+  .quarter {
+    position:absolute;
+    width:75px;
+    height:75px;
+    background-color:#9AD5FF;
+    border-radius:0 0 0 100%;
+    bottom:50;
+     
+  }
+  
+  .rectangle {
+    position:absolute;
+    height:125;
+    width:75px;
+    background-color:#F9E492;
+    top:75px;
+  }
+  
+  body {
+    background-color:#19191A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  
+</style>
+
+<body>
+  <div class="container">
+    <div class="rectangle"></div>
+  	<div class="initial"></div>
+    <div class="quarter"></div>
+    
+  </div>
+</body>

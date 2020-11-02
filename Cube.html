@@ -1,0 +1,58 @@
+
+<style>
+  .initial {
+    width: 100px;
+    height: 100px;
+    background-color: #F3AC3C;
+    transform:rotate(45deg);
+    margin-top:68px;
+  }
+  
+  .container {
+    position:relative;
+    width:141.42px;
+    display:flex;
+    justify-content:center;
+    margin:0;       
+  }
+  
+  .skew_right {
+    position:absolute;
+    background-color:#1A4341;
+    width:71;
+    height:71;   
+    transform:skewY(45deg);
+   	left:70px;
+    top:12;    
+    
+  }
+  
+  .skew_left {
+    position:absolute;
+    background-color:#998235;
+    width:71;
+    height:71;   
+    transform:skewY(-45deg);
+   	left:-1px;
+    top:12;    
+    
+  }
+  
+  body {
+    background-color:#0B2429;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+  }
+  
+</style>
+
+<body>
+  <div class="container">
+	  <div class="skew_right"></div> 
+	  <div class="initial"></div>
+      <div class="skew_left"></div>
+      	
+  </div>
+</body>

@@ -1,0 +1,122 @@
+<style>    
+  body {
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:center;
+    align-items:center;
+  background-color:#191919;
+}
+  
+  .skull {
+    position:relative;
+    width: 120px;
+    height: 100px;
+    background-color: #4F77FF;
+    border-radius:60px 60px 10px 10px;
+    top:77;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+    
+  }
+  
+  .jaw {
+  position:relative;
+    width:80px;
+    height:35px;
+    background-color:#4F77FF;
+    top:72;
+    border-radius:0px 0px 20px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    
+}
+ 
+  .eye {
+    position:relative;
+    background-color:#191919;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    top:23px;
+    z-index:1;
+    margin-left:5;
+    margin-right:5;    
+  }
+  
+  .eyeball {
+    position:relative;
+    background-color:red;
+    height:15px;
+    width:15px;
+    border-radius:50%;
+    top:-11px;
+    right:-8px;
+    z-index:2;
+    margin-left:5;
+    margin-right:5;    
+  }
+  
+   .white {
+    position:relative;
+    background-color:white;
+    height:25px;
+    width:25px;
+    border-radius:50%;
+    top:8px;
+    right:-3px;
+    z-index:1;
+    margin-left:5;
+    margin-right:5;    
+  }
+  
+  .nose {
+    position:absolute;
+    background-color:#191919;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    top:176px;
+    z-index:1;
+    margin-left:5;
+    margin-right:5;   
+    
+  }
+  
+  .teeth {
+  position:relative;
+    background-color:#191919;
+    height:10px;
+    width:10px;
+    border-radius:5px 5px 0 0;
+    top:0px;
+    z-index:1;
+    margin-left:2.5;
+    margin-right:2.5;
+    
+  }   
+   
+</style>
+
+
+<body>
+  <div class="skull">
+    <div class="eye"><div class="white"></div><div class="eyeball"></div></div>
+    <div class="eye"><div class="white"></div><div class="eyeball"></div></div>
+    
+    
+  </div>
+  <div class="nose"></div>
+  <div class="jaw">
+    <div class="teeth"></div>
+  <div class="teeth"></div>
+  <div class="teeth"></div>
+  </div>
+  
+  
+  
+   
+
+</body>

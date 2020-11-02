@@ -1,0 +1,63 @@
+<style>
+  .initial {
+   	position:absolute;
+    width: 200px;
+    height: 100px;
+    background-color:#F9E492;
+    border-radius:50% 50% 0 0 / 100% 100% 0 0;
+    transform:scale(0.5,0.5);
+    left:-50;
+    top:25;    
+  }
+  
+  .sq_container {
+    position:relative;
+    width:100px;
+    height:100px;    
+}
+  
+  .-b,.-c{
+        background-color: #4F77FF;
+  }
+  .-r90{
+    transform:rotate(90deg);
+  }
+  .-r-90 {
+    transform:rotate(-90deg);
+  }
+  .-r180 {
+    transform:rotate(180deg);
+  }
+  
+  body {
+    background-color: #191919; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .main_container {
+    width:200px;
+    height:200px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+</style>
+
+<body>  
+  <div class="main_container">
+      <div class="sq_container">		
+		  <div class="initial  -a"></div>
+      </div>
+      <div class="sq_container -r90">	
+		  <div class="initial -b"></div>
+      </div>
+     <div class="sq_container -r-90">	
+		  <div class="initial -c"></div>
+      </div>
+	  <div class="sq_container -r180">	
+		  <div class="initial -d"></div>
+      </div>
+  </div>
+</body>
